@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "papers",
+        "styles"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " \nPlease summarize the research paper titled \"{papers}\" using the following guidelines: \nExplanation Style: {styles} Explanation Length: {length} \nRequirements: 1. Mathematical Details: \n- Include key equations or concepts when relevant. \n- Use intuitive analogies to simplify complex mathematical ideas. \n2. Accuracy: - Base the summary strictly on information contained in the paper. \n- If any required detail is missing from the paper, respond with \"Insufficient Information\" rather than inferring or guessing. \n3. Quality: - Ensure the summary is clear, coherent, and aligned with the requested style and length. \n- Maintain a professional and academically appropriate tone. Produce the final summary accordingly. ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
