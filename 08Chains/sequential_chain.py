@@ -16,13 +16,9 @@ prompt2 = PromptTemplate(
 )
 
 model = ChatOpenAI()
-
 parser = StrOutputParser()
-
 chain = prompt1 | model | parser | prompt2 | model | parser
-
 result = chain.invoke({"topic":"Unemployment in Germany Vs Unemployment in India"})
 
 print(result)
-
 chain.get_graph().print_ascii()
