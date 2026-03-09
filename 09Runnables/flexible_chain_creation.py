@@ -86,7 +86,3 @@ chain1 = RunnableConnector([template1, llm])
 chain2 = RunnableConnector([template2, llm, parser])
 final_chain = RunnableConnector([chain1, chain2])
 final_chain.invoke({"topic":"SOCCER"})
-
-
-
-
