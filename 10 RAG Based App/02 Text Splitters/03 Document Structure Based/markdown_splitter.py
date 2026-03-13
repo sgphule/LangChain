@@ -3,7 +3,9 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter, Language
 text = """
 # 🧠 Autonomous Multi‑Agent AI Framework
 
-Welcome to the Autonomous Multi‑Agent AI Framework — a modular system for building intelligent agents that collaborate to solve complex tasks. This project demonstrates how planning, reasoning, memory, and execution can be distributed across multiple specialized agents, all coordinated through a central orchestrator. It’s designed for researchers, students, and developers exploring modern agentic AI workflows.
+Welcome to the Autonomous Multi‑Agent AI Framework — a modular system for building intelligent agents that collaborate to solve complex tasks. 
+This project demonstrates how planning, reasoning, memory, and execution can be distributed across multiple specialized agents, all coordinated through a central orchestrator. 
+It’s designed for researchers, students, and developers exploring modern agentic AI workflows.
 
 ---
 
