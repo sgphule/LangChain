@@ -1,7 +1,6 @@
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.documents import Document
-from langchain_openai import ChatOpenAI
 from langchain_classic.retrievers import MultiQueryRetriever
 
 from dotenv import load_dotenv
