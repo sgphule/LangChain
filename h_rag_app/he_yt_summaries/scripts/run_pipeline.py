@@ -1,12 +1,12 @@
 from dotenv import load_dotenv
 
-from rag_app.yt_summaries.app.ingestion.youtube_loader import load_transcript
-from rag_app.yt_summaries.app.ingestion.text_splitter import split_text
-from rag_app.yt_summaries.app.embeddings.embedding_model import get_embeddings
-from rag_app.yt_summaries.app.vectorstore.faiss_store import create_vector_store
-from rag_app.yt_summaries.app.retrieval.retriever import get_retriever
-from rag_app.yt_summaries.app.chains.prompts import get_prompt
-from rag_app.yt_summaries.app.chains.rag_chain import build_chain
+from h_rag_app.he_yt_summaries.app.ingestion.youtube_loader import load_transcript
+from h_rag_app.he_yt_summaries.app.ingestion.text_splitter import split_text
+from h_rag_app.he_yt_summaries.app.embeddings.embedding_model import get_embeddings
+from h_rag_app.he_yt_summaries.app.vectorstore.faiss_store import create_vector_store
+from h_rag_app.he_yt_summaries.app.retrieval.retriever import get_retriever
+from h_rag_app.he_yt_summaries.app.chains.prompts import get_prompt
+from h_rag_app.he_yt_summaries.app.chains.rag_chain import build_chain
 
 load_dotenv()
 
