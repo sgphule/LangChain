@@ -3,7 +3,7 @@ from langchain_core.tools import tool
 @tool
 def multiply(a:int, b:int)->int:
     """Multiply two numbers"""
-    return a*b
+    return a * b
 
 result = multiply.invoke({"a":5, "b":7})
 print("result:", result)

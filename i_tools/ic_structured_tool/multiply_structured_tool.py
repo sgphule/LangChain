@@ -7,7 +7,7 @@ class MultiplyInput(BaseModel):
 
 def multiply_func(a: int, b: int) -> int:
     """Multiply two integers and return the result."""
-    return a*b
+    return a * b
 
 multiply_tool: StructuredTool = StructuredTool.from_function(
     func = multiply_func,
