@@ -23,14 +23,9 @@ def multiply(a: int, b: int) -> int:
 
 class MathToolkit:
     """A simple toolkit providing arithmetic tools."""
-    def __init__(self):
-        self._tools = [add, multiply]
 
-    def register(self, tool):
-        self._tools.append(tool)
-
-    def get_tools(self):
-        return self._tools
+    def get_tools(self) -> list[BaseTool]:
+        return [add, multiply]
 
 
 toolkit = MathToolkit()
